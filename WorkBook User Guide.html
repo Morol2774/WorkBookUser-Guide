@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>WorkBook User Guide</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">:root{--navy:#0B1E3F;--blue:#1A5BB0;--text:#2E3A4D;--line:#DCE3EC;--bg:#F4F6FA}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 "Segoe UI",Calibri,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:48px 24px 80px;background:#fff;min-height:100vh}
+h1{color:var(--navy);font-size:40px;margin:0 0 4px}
+h1+p{color:#6A7686;font-size:14px;margin:0 0 28px}
+h2{color:var(--navy);font-size:27px;margin:48px 0 12px;padding-top:20px;border-top:1px solid var(--line)}
+h3{color:var(--blue);font-size:20px;margin:28px 0 8px}
+table{border-collapse:collapse;width:100%;margin:16px 0 20px;font-size:15px}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:nth-child(even) td{background:#EEF2F8}
+li{margin:4px 0}
+nav{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px 20px;margin:0 0 24px}
+nav ul{margin:6px 0 0;padding-left:20px}
+nav a{color:var(--blue);text-decoration:none}
+@media print{body{background:#fff}main{padding:0}}
+@media (max-width:600px){body{font-size:16px}h1{font-size:32px}table{font-size:13px}}
+</style>
+</head>
+<body><main>
+
+<h1 id="workbook-user-guide">WorkBook User Guide</h1>
+<p>October 23, 2026</p><nav id="TOC" role="doc-toc"><b>Contents</b>
+<ul>
+<li><a href="#workbook-user-guide" id="toc-workbook-user-guide">WorkBook
+User Guide</a></li>
+</ul>
+</nav>
+<p>WorkBook is CTDI’s invitation-only internal network. This guide shows
+how to join, how admins manage people and branches, and how to publish
+company news.</p>
+<h2 id="who-this-guide-is-for">Who this guide is for</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Section</th>
+<th>Read it if you are</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Getting started</td>
+<td>Everyone</td>
+</tr>
+<tr class="even">
+<td>Two-factor sign-in</td>
+<td>HR, branch and regional managers, admins</td>
+</tr>
+<tr class="odd">
+<td>Admin panel</td>
+<td>Global admins and the super admin</td>
+</tr>
+<tr class="even">
+<td>Company news</td>
+<td>HR, managers and admins</td>
+</tr>
+</tbody>
+</table>
+<p>WorkBook runs in any web browser on a computer or phone. Your manager
+or HR sends you the web address together with your invitation.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>You can register only with the exact email address your invitation
+was sent to. Your role and branch come from the invitation
+automatically.</p>
+<h3 id="create-your-account">Create your account</h3>
+<ol type="1">
+<li>Open the WorkBook web address you received.</li>
+<li>Click <strong>Got an invitation? Create your account</strong>.</li>
+<li>Enter your full name, the invited work email and a password of at
+least 12 characters with letters and numbers.</li>
+<li>Click <strong>Create account</strong>. The screen shows
+<strong>Check your email</strong>.</li>
+<li>Open the confirmation email and click the link. Open it in the same
+browser where WorkBook is open.</li>
+<li>Return to WorkBook and sign in with your email and password.</li>
+</ol>
+<p>Invitations expire after 14 days. If yours has expired, ask your
+manager or HR for a new one.</p>
+<h3 id="sign-in">Sign in</h3>
+<ol type="1">
+<li>Enter your email and password, then click <strong>Sign
+in</strong>.</li>
+<li>If you have two-factor sign-in, enter the 6-digit code when
+asked.</li>
+</ol>
+<h3 id="forgot-your-password">Forgot your password</h3>
+<ol type="1">
+<li>On the sign-in screen click <strong>Forgot password?</strong> and
+enter your email.</li>
+<li>Open the email in the same browser and click the link.</li>
+<li>Choose a new password on the <strong>Set a new password</strong>
+screen.</li>
+</ol>
+<p>For security, WorkBook shows the same message for a wrong email and a
+wrong password. It never confirms whether an account exists.</p>
+<h2 id="two-factor-sign-in-for-managers-and-admins">Two-factor sign-in
+for managers and admins</h2>
+<p>HR, managers and admins must turn on two-factor sign-in. Until they
+do, their account works like a regular employee’s: inviting, moderating,
+publishing news and admin actions are blocked.</p>
+<h3 id="set-up-the-authenticator">Set up the authenticator</h3>
+<ol type="1">
+<li>Sign in and click the shield icon in the top-right corner, or
+<strong>Set up</strong> on the red banner.</li>
+<li>Click <strong>Set up authenticator app</strong>. A QR code
+appears.</li>
+<li>Scan it with your phone. <strong>iPhone:</strong> point the Camera
+at the QR code and tap <strong>Add Verification Code in
+Passwords</strong> (no app download needed). <strong>Android:</strong>
+use Google Authenticator or Microsoft Authenticator.</li>
+<li>Type the 6-digit code from your phone into WorkBook. The screen
+shows <strong>Two-factor authentication is on.</strong></li>
+</ol>
+<p>After this, WorkBook asks for a fresh code each time you sign in.</p>
+<h3 id="fingerprint-or-windows-hello-optional">Fingerprint or Windows
+Hello (optional)</h3>
+<p>Once the authenticator is on, you can click <strong>Add passkey on
+this device</strong> on the same screen. Next time, click <strong>Sign
+in with Windows Hello / fingerprint</strong> instead of typing a
+password and code.</p>
+<ul>
+<li>Add passkeys only after the authenticator. A passkey added earlier
+does not unlock manager or admin actions, and the security screen shows
+a warning to remove it.</li>
+<li>Passkeys work in the browser version only.</li>
+</ul>
+<p>If you lose your phone, ask an admin. Never share your codes with
+anyone, including IT.</p>
+<h2 id="admin-panel">Admin panel</h2>
+<p>Open <strong>Admin</strong> in the left menu. It has four tabs:
+<strong>Roles &amp; users</strong>, <strong>Structure</strong>,
+<strong>Access</strong> and <strong>Audit log</strong>. Two-factor
+sign-in must be on.</p>
+<h3 id="invite-people-access-tab">Invite people (Access tab)</h3>
+<ol type="1">
+<li>Click <strong>Invite</strong> next to <strong>Pending
+invitations</strong>.</li>
+<li>Enter the person’s <strong>Work email</strong>, pick a
+<strong>Role</strong> and a <strong>Branch</strong>.</li>
+<li>Click <strong>Create invitation</strong>, then tell the person to
+open WorkBook and click <strong>Got an invitation?</strong> within 14
+days.</li>
+</ol>
+<p>To cancel an invitation, remove it from the <strong>Pending
+invitations</strong> list. HR and managers can also invite from
+<strong>Directory → Invite a colleague</strong>.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>You are</th>
+<th>You can invite as</th>
+<th>Into</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>HR</td>
+<td>Guest, Employee, Team lead</td>
+<td>Your own branch</td>
+</tr>
+<tr class="even">
+<td>Branch manager</td>
+<td>Guest, Employee, Team lead</td>
+<td>Your own branch</td>
+</tr>
+<tr class="odd">
+<td>Regional manager</td>
+<td>Guest, Employee, Team lead</td>
+<td>Any branch in your region</td>
+</tr>
+<tr class="even">
+<td>Global admin</td>
+<td>Any role below global admin</td>
+<td>Any branch</td>
+</tr>
+<tr class="odd">
+<td>Super admin</td>
+<td>Any role below super admin</td>
+<td>Any branch</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Company email domains</strong> (super admin only): add a
+domain such as company.com to let anyone with that email register as a
+Guest without an invitation. Leave the list empty to keep registration
+invitation-only.</p>
+<h3 id="change-roles-and-branches-roles-users-tab">Change roles and
+branches (Roles &amp; users tab)</h3>
+<p>Each person has a <strong>Role</strong> and a <strong>Branch</strong>
+dropdown. People marked <strong>Not yet assigned to a branch</strong>
+need a branch before they see branch content. You cannot give anyone a
+role equal to or higher than your own.</p>
+<h3 id="regions-and-branches-structure-tab">Regions and branches
+(Structure tab)</h3>
+<ul>
+<li>Click <strong>Region</strong> to add a region, or <strong>Add branch
+to [region]</strong> under a region.</li>
+<li>Use the pencil icon to rename or edit a branch (address, phone,
+email), and the trash icon to delete.</li>
+<li>A branch that still has employees, or a region that still has
+branches, cannot be deleted. Move people or branches first.</li>
+</ul>
+<h3 id="remove-a-person-who-left">Remove a person who left</h3>
+<ol type="1">
+<li>Open the person’s profile and click <strong>Archive
+employee</strong>. Their access stops immediately.</li>
+<li>The super admin opens <strong>Moderation → Archive requests</strong>
+and either deletes the account permanently or restores it.</li>
+</ol>
+<h3 id="audit-log-tab">Audit log tab</h3>
+<p>Shows who did what and when: invitations, role changes, archiving,
+structure changes, moderation. Nobody can edit or erase it.</p>
+<h2 id="company-news">Company news</h2>
+<p>News is for official updates; the Feed is for everyday posts. Each
+news item goes to one audience, and only that audience can see it.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Audience</th>
+<th>Who sees it</th>
+<th>Who can publish</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Global</td>
+<td>Everyone in the company</td>
+<td>Global admins, super admin</td>
+</tr>
+<tr class="even">
+<td>Region</td>
+<td>Every branch in one region</td>
+<td>Regional manager, HR of that region, admins</td>
+</tr>
+<tr class="odd">
+<td>Branch</td>
+<td>One branch</td>
+<td>Branch manager, HR, regional manager of that region, admins</td>
+</tr>
+</tbody>
+</table>
+<h3 id="publish-a-news-item">Publish a news item</h3>
+<ol type="1">
+<li>Open <strong>News</strong> in the left menu and click <strong>Write
+company news</strong>.</li>
+<li>Choose the audience: <strong>global</strong>,
+<strong>region</strong> or <strong>branch</strong>. Only the options
+your role allows are shown. HR and branch managers post to their own
+branch or region automatically.</li>
+<li>Pick a category: <strong>announcement</strong>,
+<strong>policy</strong> or <strong>event</strong>.</li>
+<li>Write a clear <strong>Title</strong> and the text.</li>
+<li>Optional: click <strong>Attach</strong> to add photos, one video or
+a PDF.</li>
+<li>Publish. Everyone in the audience gets a notification.</li>
+</ol>
+<h3 id="edit-or-delete">Edit or delete</h3>
+<p>Open the menu on your news item and choose <strong>Edit</strong> or
+<strong>Delete</strong>. Admins can remove any item.</p>
+<h3 id="good-practice">Good practice</h3>
+<ul>
+<li>One topic per item; put the key fact or date in the title.</li>
+<li>Use <strong>policy</strong> for rules people must follow and attach
+the PDF.</li>
+<li>Choose the smallest audience that needs it: a branch notice should
+not go global.</li>
+<li>Limit: 20 news items per hour per person.</li>
+</ul>
+<h2 id="moderation-and-troubleshooting">Moderation and
+troubleshooting</h2>
+<h3 id="reported-posts">Reported posts</h3>
+<p>Any employee can report a post. Branch and regional managers and
+admins open <strong>Moderation</strong>, review each report and choose
+<strong>remove</strong> or <strong>dismiss</strong>. Managers see
+reports for their own branch or region only.</p>
+<h3 id="limits-per-person">Limits per person</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Limit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Posts</td>
+<td>5 a minute, 40 an hour</td>
+</tr>
+<tr class="even">
+<td>Comments</td>
+<td>10 a minute, 200 an hour</td>
+</tr>
+<tr class="odd">
+<td>Messages</td>
+<td>30 a minute</td>
+</tr>
+<tr class="even">
+<td>File uploads</td>
+<td>30 a minute, 500 a day</td>
+</tr>
+<tr class="odd">
+<td>Invitations</td>
+<td>50 a day</td>
+</tr>
+</tbody>
+</table>
+<p>Files allowed: photos, video up to 50 MB, PDF up to 20 MB.</p>
+<h3 id="common-problems">Common problems</h3>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Message or problem</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Registration is by invitation only</td>
+<td>Use the exact invited email, or ask for a new invitation (they
+expire after 14 days)</td>
+</tr>
+<tr class="even">
+<td>Email or password is incorrect</td>
+<td>Check the keyboard language and Caps Lock, then use <strong>Forgot
+password?</strong></td>
+</tr>
+<tr class="odd">
+<td>The email link opens the sign-in screen</td>
+<td>Open the link in the same browser where you requested it</td>
+</tr>
+<tr class="even">
+<td>This action requires two-factor authentication</td>
+<td>Turn on two-factor sign-in (see above) and sign in again</td>
+</tr>
+<tr class="odd">
+<td>You are doing that too often</td>
+<td>Wait a minute; a per-person limit was reached</td>
+</tr>
+<tr class="even">
+<td>No email arrives</td>
+<td>Check spam and wait 10 minutes before requesting again</td>
+</tr>
+</tbody>
+</table>
+</main></body>
+</html>
